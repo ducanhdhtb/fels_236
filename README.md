@@ -52,3 +52,27 @@
 **Admin User**
 
 * can manage all data
+
+----------
+
+# Step by step
+
+1. Design database
+2. Add task on redmine + estimate time
+3. Static page
+4. Init model + relationship
+5. Login logout
+6. Other pulls
+
+> Notice: Trừ pull về init model, còn lại các pull khác không nhiều hơn 15 files
+
+
+----------
+
+
+# Step to update task on redmine
+
+1. Change Status to "In Progress", "Due date"
+2. Update  "Spent time", "% Done (100)",  before send pull request to trainer 
+3. if trainer COMMENT, change "% Done (80)", after that continue to fix comment else move to step 4
+4. after MERGED, update task infomation "spent time", "% Done (100)", Status to "Resolved"
