@@ -1,4 +1,7 @@
 /node_modules
+/public/phpmyadmin
+/public
+/public/user_asset
 /public/storage
 /public/hot
 /storage/*.key

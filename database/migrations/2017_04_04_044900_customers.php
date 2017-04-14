@@ -17,7 +17,8 @@ class Customers extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
-            $table->text('description');
+            $table->string('password');
+            $table->text('address');
             $table->boolean('role')->default(0);         
             $table->string('avartar');
             $table->date('birthday')->nullable();
